@@ -12,7 +12,7 @@ class CalculadoraHija(Calculadora):
     def div(self, op1, op2):
         if op2 == 0:
             sys.exit("Division by zero is not allowed")
-        else:  
+        else:
             return op1 / op2
 
 
