@@ -3,6 +3,7 @@
 
 import sys
 
+
 class Calculadora():
 
     def sum(self, op1, op2):
@@ -10,6 +11,7 @@ class Calculadora():
 
     def rest(self, op1, op2):
         return op1 - op2
+
 
 if __name__ == '__main__':
     try:
